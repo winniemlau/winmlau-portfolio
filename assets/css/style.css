@@ -20,6 +20,12 @@ ul li {
   text-decoration: none;
 }
 
+#sectone{
+  background-image: url("../img/sectonebg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 @-webkit-keyframes blink {
   0% { opacity:1; }
   50% { opacity:0; }
