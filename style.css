@@ -1,0 +1,47 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6em;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 20pt;
+}
+
+ul {
+  font-size: 14pt;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+#typed-cursor{
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+span.text-change {
+    color: blue;
+}
